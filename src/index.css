@@ -1,0 +1,37 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global body styling */
+body {
+  font-family: "Roboto Mono", monospace;
+  background: linear-gradient(135deg, #291a2e, #240046); /* Dark blue to purple */
+  color: #eaeaea;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+h1, h2 {
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #e0aaff;
+}
+
+a:hover {
+  color: #c77dff;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+h1, h2, h3 {
+  font-weight: 700;
+  color: #ab37ab;
+}

@@ -1,0 +1,65 @@
+.section {
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 12px;
+  background: linear-gradient(145deg, #1e1e2e, #252540);
+  color: #ffffff;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), -5px -5px 10px rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #ffccff;
+}
+
+.section p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.skills-list {
+  margin-top: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.skill-item {
+  background: rgba(255, 255, 255, 0.1); /* Highlight skill item */
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  color: #eaeaea;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.skill-item:hover {
+  background: rgba(255, 255, 255, 0.2); /* Slightly brighter highlight */
+  transform: translateY(-2px);
+}
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project-item {
+  background: #232343;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.project-item:hover {
+  transform: scale(1.05);
+}
+
+.project-image {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
